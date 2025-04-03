@@ -39,28 +39,6 @@ body::before
     font-size: 16px;
 }
 
-#kopiuj_button
-{
-    position: absolute;
-    height: 27px;
-    width: 60px;
-    background-color: #e0ecf9;
-    margin-left: 270px;
-    margin-top: -57px;
-    border-radius: 15px;
-}
-
-#napis_kopiuj
-{
-    position: absolute;
-    font-family: "roboto";
-    font-weight: 800;
-    font-size: 13px;
-    color: #2c4e7e;
-    padding-left: 281px;
-    margin-top: -52px;
-}
-
 #zamknij_button
 {
     position: absolute;
@@ -87,6 +65,7 @@ body::before
     position: absolute;
     height: 49px;
     width: 350px;
+    background-color: transparent;
     margin-left: 16px;
     margin-top: 0px;
     border-radius: 30px;
@@ -105,8 +84,8 @@ body::before
 .ramka
 {
     width: 360px;
-    height: 330px;
-    margin-top: -395px;
+    height: 320px;
+    margin-top: -390px;
     margin-left: 14px;
     border-radius: 15px;
     border: 1px solid #ebebeb;
@@ -130,31 +109,26 @@ body::before
     margin-top: -5px;
 }
 
-#status
+#kopiuj_button
 {
-    font-family: "roboto";
-    font-weight: 600;
-    font-size: 14px;
-    color: #797979;
-    padding-left: 13px;
-    margin-top: -7px;
+    position: absolute;
+    height: 27px;
+    width: 60px;
+    background-color: #e0ecf9;
+    margin-left: 270px;
+    margin-top: -60px;
+    border-radius: 15px;
 }
 
-#kropka_status
+#napis_kopiuj
 {
-    position: absolute;;
-    height: 20px;
-    margin-left: 10px;
-    margin-top: -12px;
-}
-
-#wydany
-{
+    position: absolute;
     font-family: "roboto";
-    font-weight: 600;
-    font-size: 15px;
-    padding-left: 30px;
-    margin-top: -10px;
+    font-weight: 800;
+    font-size: 13px;
+    color: #2c4e7e;
+    padding-left: 281px;
+    margin-top: -55px;
 }
 
 hr
@@ -164,31 +138,11 @@ hr
     margin-top: -5px;
 }
 
-#organwydajacy
-{
-    font-family: "roboto";
-    font-weight: 600;
-    font-size: 14px;
-    color: #797979;
-    padding-left: 13px;
-    margin-top: -1px;
-}
-
-#urzadmiejski
-{
-    font-family: "roboto";
-    font-weight: 700;
-    font-size: 15px;
-    padding-left: 13px;
-    padding-right: 100px;
-    margin-top: -10px;
-}
-
 #terminwaznosci
 {
     font-family: "roboto";
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
     color: #797979;
     padding-left: 13px;
     margin-top: -1px;
@@ -208,13 +162,53 @@ hr
 {
     font-family: "roboto";
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
     color: #797979;
     padding-left: 13px;
     margin-top: -1px;
 }
 
 #data
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -10px;
+}
+
+#imieojca
+{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 13px;
+    color: #797979;
+    padding-left: 13px;
+    margin-top: -1px;
+}
+
+#ojciec
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -10px;
+}
+
+#imiematki
+{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 13px;
+    color: #797979;
+    padding-left: 13px;
+    margin-top: -1px;
+}
+
+#matka
 {
     font-family: "roboto";
     font-weight: 700;

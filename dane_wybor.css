@@ -76,3 +76,14 @@ body::before
     margin-top: -413px;
     border-radius: 30px;
 }
+
+#dane_mdowod
+{
+    position: absolute;
+    height: 49px;
+    width: 265px;
+    background-color: transparent;
+    margin-left: 62px;
+    margin-top: -171px;
+    border-radius: 30px;
+}
