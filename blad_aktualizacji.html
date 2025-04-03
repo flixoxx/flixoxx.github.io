@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F4F6FA">
+    <link rel="stylesheet" href="blad_aktualizacji.css">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/stopka.jpeg" id="stopka">
+    <a href="ekglow.html" id="button_wroc"></a>
+    <img src="img/button_wroc.jpeg" id="icon_wroc">
+    <img src="img/informacje.jpeg" id="icon_info">
+    <div class="blad">
+        <img src="img/blad_pusty.jpeg" id="blad_pusty">
+        <a id="tekst_bledu" class="blad">Wygląda na to, że wystąpił błąd podczas aktualizowania danych. Spróbuj ponownie później.</a>
+        <a href="dowod.html" id="zamknij_button"></a>
+    </div>
+    <p class="mDowod">mDowód</p>
+    <div id="czas">
+    <p class="czas">Czas:</p>
+    <p id="Godzina" class="czas"></p>
+    </div>
+    <script>
+        const Godzina = document.getElementById("Godzina")
+
+        const runClock = () => {
+            const now = new Date()
+            const Hours = String(now.getHours()).padStart(2, "0");
+            const Minutes = String(now.getMinutes()).padStart(2, "0");
+            const Seconds = String(now.getSeconds()).padStart(2, "0");
+            const Day = String(now.getDate()).padStart(2, "0");
+            const Month = String(now.getMonth() + 1).padStart(2, "0");
+            const Year = now.getFullYear();
+            Godzina.innerText = Hours + ":" + Minutes + ":" + Seconds + " " + Day + "." + Month + "." + Year;
+        }   
+        runClock()
+        setInterval(runClock, 1000)
+    </script>
+    <img class="dowod" src="img/dowod.jpeg">
+    <div class="potwierdzswojedane">
+        <p id="napis_potw">Potwierdź swoje dane</p>
+        <img src="img/ikona1.jpeg" id="ikona1">
+        <img src="img/strzalka.jpeg" id="strzalka">
+    </div>
+    <div class="danedokumentu">
+        <p id="napis_dane">Dane dokumentu</p>
+        <img src="img/ikona2.jpeg" id="ikona2">
+        <img src="img/strzalka.jpeg" id="strzalka">
+    </div>
+    <div class="twojedodatkowedane">
+        <p class="napis_dodatk">Twoje dodatkowe dane</p>
+        <img src="img/strzalka_wdol.jpeg" id="strzalka_wdol">
+    </div>
+    <div class="ostatiaaktualizacja">
+        <p id="napis_ostat">Ostatnia aktualizacja</p>
+        <p id="data_akt">14.01.2025</p>
+        <a href="blad_aktualizacji.html" id="aktualizuj"></a>
+        <p id="napis_guzik">Aktualizuj</p>
+    </div>
+    <div class="usundokument">
+        <img src="img/kosz.jpeg" id="kosz">
+        <a id="napis_usun">Usuń dokument</a>
+    </div>
+
+    <div id="wspomagajacy">
+        
+    </div>
+    
+</body>
+</html>

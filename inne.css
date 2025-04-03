@@ -1,0 +1,133 @@
+body
+{
+    background-color: #f4f5fa;
+}
+
+#stopka
+{
+    height: 77px;
+    position:fixed;
+    margin-top: 177%;
+    margin-left: -2px;
+    z-index: 100;
+}
+
+#button_pulpit
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 700px;
+    margin-left: 20px;
+    z-index: 1000;
+}
+
+#button_dokumenty
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 700px;
+    margin-left: 97px;
+    z-index: 1000;
+}
+
+#button_uslugi
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 700px;
+    margin-left: 170px;
+    z-index: 1000;
+}
+
+#button_kodqr
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 700px;
+    margin-left: 250px;
+    z-index: 1000;
+}
+
+h1
+{
+    font-family: "roboto";
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 30px;
+    font-size: 37px
+}
+
+#ustawienia
+{
+    position: absolute;
+    padding-left: 10px;
+    font-family: "roboto";
+    color: #101317;
+    margin-top: -5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.pierwsza_lista
+{
+    position: absolute;
+    background-color: #ffffff;
+    height: 326px;
+    width: 360px;
+    margin-left: 8px;
+    margin-top: 34px;
+    border-radius: 10px;
+}
+
+#lista1
+{
+    height: 320px;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+
+#pozostale
+{
+    position: absolute;
+    padding-left: 10px;
+    font-family: "roboto";
+    color: #101317;
+    margin-top: 395px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.druga_lista
+{
+    position: absolute;
+    background-color: #ffffff;
+    height: 385px;
+    width: 360px;
+    margin-left: 8px;
+    margin-top: 430px;
+    border-radius: 10px;
+}
+
+#lista2
+{
+    height: 377px;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+
+#pomocniczy
+{
+    height: 100px;
+    width: 100px;
+    background-color: invisible;
+    position: absolute;
+    margin-top: 810px;
+}

@@ -1,0 +1,346 @@
+body
+{
+    background-color: #f4f5fa;
+}
+
+#stopka
+{
+    height: 83px;
+    position:fixed;
+    margin-top: 179%;
+    z-index: 100;
+}
+
+#button_pulpit
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 707px;
+    margin-left: 20px;
+    z-index: 1000;
+}
+
+#button_dokumenty
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 707px;
+    margin-left: 97px;
+    z-index: 1000;
+}
+
+#button_uslugi
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 707px;
+    margin-left: 170px;
+    z-index: 1000;
+}
+
+#button_kodqr
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 707px;
+    margin-left: 250px;
+    z-index: 1000;
+}
+
+#button_inne
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 707px;
+    margin-left: 325px;
+    z-index: 1000;
+}
+
+#wspomagajacy
+{
+    height: 100px;
+    width: 100px;
+    background-color: invisible;
+    position: absolute;
+    margin-top: 400px;
+}
+
+#icon_wroc
+{
+    height: 40px;
+    position: absolute;
+    margin-top:-8px;
+    margin-left:-5px;
+}
+
+#button_wroc
+{
+    position: absolute;
+    background-color: invisible;
+    height: 20px;
+    z-index: 10;
+    width: 60px;
+}
+
+#icon_info
+{
+    height: 35px;
+    position: absolute;
+    margin-top:-6px;
+    margin-left:345px;
+}
+
+.mDowod
+{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 16px;
+    font-optical-sizing: auto;
+}
+
+.czas
+{
+    display: inline;
+    font-family: "Roboto";
+    color:#6a6c71;
+}
+
+#czas
+{
+    text-align: center;
+}
+
+.dowod
+{
+    display: block;
+    height: 492px;
+    width: 395px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.potwierdzswojedane
+{
+    position: absolute;
+    background-color: #ffffff;
+    height: 63px;
+    width: 364px;
+    margin-left: 6px;
+    margin-top: 12px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#napis_potw
+{
+    font-family: "Roboto";
+    font-weight: 900;
+    padding-left: 58px;
+    padding-top: 7px;
+    
+}
+
+#ikona1
+{
+    position: absolute;
+    height: 45px;
+    margin-top: -47px;
+    margin-left: 8px;
+}
+
+#strzalka
+{
+    position: absolute;
+    height: 30px;
+    margin-left: 326px;
+    margin-top: -40px
+}
+
+#potwierdzswojedane_button
+{
+    position: absolute;
+    background-color: transparent;
+    height: 65px;
+    width: 364px;
+    margin-top: -58px;
+    border-radius: 14px;
+}
+
+.danedokumentu
+{
+    position: absolute;
+    background-color: #ffffff;
+    height: 63px;
+    width: 364px;
+    margin-left: 6px;
+    margin-top: 92px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#napis_dane
+{
+    font-family: "Roboto";
+    font-weight: 900;
+    padding-left: 58px;
+    padding-top: 6px;
+}
+
+#ikona2
+{
+    position: absolute;
+    height: 33px;
+    margin-top: -41px;
+    margin-left: 12px;
+}
+
+#danedokumentu_button
+{
+    position:absolute;
+    height: 63px;
+    background-color: invisible;
+    width: 364px;
+    margin-top: -56px;
+    border-radius: 14px;
+}
+
+.twojedodatkowedane
+{
+    position: absolute;
+    background-color: #ffffff;
+    height: 53px;
+    width: 364px;
+    margin-left: 6px;
+    margin-top: 170px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.napis_dodatk
+{
+    font-family: "Roboto";
+    font-weight: 900;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+#strzalka_wdol
+{
+    position: absolute;
+    height: 25px;
+    margin-left: 323px;
+    margin-top: -40px
+}
+
+.ostatiaaktualizacja
+{
+    position: absolute;
+    background-color: #ffffff;
+    height: 75px;
+    width: 364px;
+    margin-left: 6px;
+    margin-top: 239px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#napis_ostat
+{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 0px;
+    color:#6a6c71;
+}
+
+#data_akt
+{
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 15px;
+    margin-top: -7px;
+    z-index: 100;
+}
+
+#aktualizuj
+{
+    position: absolute;
+    background-color: #deeaf7;
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 280px;
+    margin-top: -54px;
+}
+
+#napis_guzik
+{
+    position: absolute;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 11px;
+    padding-left: 289px;
+    margin-top: -48px;
+    color: #275495;
+}
+
+.usundokument
+{
+    position: absolute;
+    background-color: #ffffff;
+    height: 75px;
+    width: 364px;
+    margin-left: 6px;
+    margin-top: 332px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#napis_usun
+{
+    position: absolute;
+    font-family: "Roboto";
+    font-weight: 900;
+    padding-left: 10px;
+    padding-top: 28px;
+    color: #bd3b2b;
+}
+
+#kosz
+{
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#flaga
+{
+    position: absolute;
+    z-index: 100;
+    margin-top: -280px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+#holo
+{
+    position: absolute;
+    z-index: 100;
+    margin-top: -219.5px;
+    margin-left: 25.5px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}

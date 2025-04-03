@@ -1,0 +1,61 @@
+body
+{
+    background-image: url("img/ekglow.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.mDowod
+{
+    position:absolute;
+    width: 300px;
+    height: 180px;
+    background-color: transparent;
+    color: transparent;
+    top: 15%;
+    left: 4%;
+}
+
+#button_uslugi
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 720px;
+    margin-left: 170px;
+    z-index: 1000;
+}
+
+#button_dokumenty
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 707px;
+    margin-left: 97px;
+    z-index: 1000;
+}
+
+#button_kodqr
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 707px;
+    margin-left: 250px;
+    z-index: 1000;
+}
+
+#button_inne
+{
+    position: fixed;
+    background-color: invisible;
+    height: 35px;
+    width: 35px;
+    margin-top: 715px;
+    margin-left: 325px;
+    z-index: 1000;
+}
