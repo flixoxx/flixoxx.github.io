@@ -72,7 +72,7 @@ body
     width: 100px;
     background-color: invisible;
     position: absolute;
-    margin-top: 400px;
+    margin-top: 950px;
 }
 
 #icon_wroc
@@ -219,7 +219,7 @@ body
 {
     position: absolute;
     background-color: #ffffff;
-    height: 53px;
+    height: 600px;
     width: 364px;
     margin-left: 6px;
     margin-top: 170px;
@@ -250,7 +250,7 @@ body
     height: 75px;
     width: 364px;
     margin-left: 6px;
-    margin-top: 239px;
+    margin-top: 787px;
     border-radius: 14px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -304,7 +304,7 @@ body
     height: 75px;
     width: 364px;
     margin-left: 6px;
-    margin-top: 332px;
+    margin-top: 880px;
     border-radius: 14px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -354,4 +354,154 @@ body
     z-index: 1;
     margin-top: -53px;
     border-radius: 14px;
+}
+
+hr
+{
+    border: 1px solid #F6F6F6;
+    width: 330px;
+    margin-top: 5px;
+}
+
+#nazwiskorodowe
+{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    padding-left: 13px;
+}
+
+#nazwisko
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -10px;
+}
+
+#plec_napis
+{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    padding-left: 13px;
+}
+
+#plec
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -10px;
+}
+
+#nazwiskorodoweojca
+{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    padding-left: 13px;
+}
+
+#nazwiskoojca
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -10px;
+}
+
+#nazwiskorodowematki
+{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    padding-left: 13px;
+}
+
+#nazwiskomatki
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -10px;
+}
+
+#miejsceurodzenia_napis
+{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    padding-left: 13px;
+}
+
+#miejsceurodzenia
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -10px;
+}
+
+#adreszameldowania_napis
+{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    padding-left: 13px;
+}
+
+#adreszameldowania1
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -10px;
+}
+
+#adreszameldowania2
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -15px;
+}
+
+#datazameldowania_napis
+{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+    padding-left: 13px;
+}
+
+#datazameldowania
+{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 100px;
+    margin-top: -10px;
 }
