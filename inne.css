@@ -5,10 +5,10 @@ body
 
 #stopka
 {
-    height: 77px;
+    height: 82px;
     position:fixed;
     margin-top: 177%;
-    margin-left: -2px;
+    margin-left: -1px;
     z-index: 100;
 }
 

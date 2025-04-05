@@ -5,6 +5,15 @@ body
     background-repeat: no-repeat;
 }
 
+#stopka
+{
+    height: 83px;
+    position:fixed;
+    margin-top: 181%;
+    margin-left: -1px;
+    z-index: 100;
+}
+
 #button_pulpit
 {
     position: fixed;

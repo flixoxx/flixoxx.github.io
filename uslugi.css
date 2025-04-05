@@ -1,17 +1,33 @@
 body
 {
-    background-image: url("img/uslugi.jpeg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-color: #f4f5fa;
+}
+
+#stopka
+{
+    height: 82px;
+    position:fixed;
+    margin-top: 181%;
+    margin-left: -1px;
+    z-index: 100;
+}
+
+#pomocniczy
+{
+    height: 100px;
+    width: 100px;
+    background-color: invisible;
+    position: absolute;
+    margin-top: 720px;
 }
 
 #button_pulpit
 {
     position: fixed;
-    background-color: invisible;
+    background-color: transparent;
     height: 35px;
     width: 35px;
-    margin-top: 707px;
+    margin-top: 588px;
     margin-left: 20px;
     z-index: 1000;
 }
@@ -19,10 +35,10 @@ body
 #button_dokumenty
 {
     position: fixed;
-    background-color: invisible;
+    background-color: transparent;
     height: 35px;
     width: 35px;
-    margin-top: 707px;
+    margin-top: 587px;
     margin-left: 97px;
     z-index: 1000;
 }
@@ -30,21 +46,86 @@ body
 #button_kodqr
 {
     position: fixed;
-    background-color: invisible;
+    background-color: transparent;
     height: 35px;
     width: 35px;
-    margin-top: 707px;
-    margin-left: 250px;
+    margin-top: 585px;
+    margin-left: 249px;
     z-index: 1000;
 }
 
 #button_inne
 {
     position: fixed;
-    background-color: invisible;
+    background-color: transparent;
     height: 35px;
     width: 35px;
-    margin-top: 707px;
+    margin-top: 585px;
     margin-left: 325px;
     z-index: 1000;
+}
+
+#edytuj_zdj
+{
+    height: 60px;
+    margin-left: 300px;
+    margin-top: -10px;
+}
+
+#uslugi_napis
+{
+    font-family: "roboto";
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-top: -9px;
+}
+
+#szukaj
+{
+    position: absolute;
+    height: 60px;
+    margin-left: -8px;
+    margin-top: -30px;
+}
+
+.napulpicie
+{
+    position: absolute;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 17.5px;
+    margin-top: 42px;
+    padding-left: 10px;
+}
+
+.container
+{
+    position: absolute;
+    background-color: #ffffff;
+    height: 490px;
+    width: 359px;
+    margin-left: 8px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+#tresc1
+{
+    height: 460px;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+
+#pozostale
+{
+    margin-top:600px;
+}
+
+#tresc2
+{
+    position: absolute;
+    height: 97px;
+    margin-left: -9px;
+    margin-top: 630px;
 }

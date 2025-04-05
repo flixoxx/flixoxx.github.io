@@ -5,6 +5,14 @@ body
     background-repeat: no-repeat;
 }
 
+#stopka
+{
+    height: 83px;
+    position:fixed;
+    margin-top: 181%;
+    z-index: 100;
+}
+
 #ikona_dowodu
 {
     height: 40px;
